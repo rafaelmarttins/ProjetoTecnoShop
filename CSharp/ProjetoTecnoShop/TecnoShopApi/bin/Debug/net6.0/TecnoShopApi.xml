@@ -1,0 +1,740 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TecnoShopApi</name>
+    </assembly>
+    <members>
+        <member name="T:TecnoShopApi.Controllers.CategoriaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CategoriaController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CategoriaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Categoria por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CategoriaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Categoria.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CategoriaController.Post(TecnoShop.Poco.CategoriaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Categoria.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CategoriaController.Put(TecnoShop.Poco.CategoriaPoco)">
+            <summary>
+            Altera um dado existente na tabela Categoria.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CategoriaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.CidadeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Cidade por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.GetByEstado(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Cidade por código Estado.
+            </summary>
+            <param name="estcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Cidade.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.Post(TecnoShop.Poco.CidadePoco)">
+            <summary>
+            Inclui um novo dado na tabela Cidade.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.Put(TecnoShop.Poco.CidadePoco)">
+            <summary>
+            Altera um dado existente na tabela Cidade.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.CidadeController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.ClienteController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Cliente por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.GetByEndereco(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Estoque por código de Endereço.
+            </summary>
+            <param name="endcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Cliente.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.Post(TecnoShop.Poco.ClientePoco)">
+            <summary>
+            Inclui um novo dado na tabela Cliente.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.Put(TecnoShop.Poco.ClientePoco)">
+            <summary>
+            Altera um dado existente na tabela Cliente.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ClienteController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.EnderecoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Endereço por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.GetByCidade(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Endereço por código Cidade.
+            </summary>
+            <param name="cidcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Endereço.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.Post(TecnoShop.Poco.EnderecoPoco)">
+            <summary>
+            Inclui um novo dado na tabela Endereço.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.Put(TecnoShop.Poco.EnderecoPoco)">
+            <summary>
+            Altera um dado existente na tabela Endereço.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EnderecoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.EstadoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstadoController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstadoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Estado por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstadoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Estado.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstadoController.Post(TecnoShop.Poco.EstadoPoco)">
+            <summary>
+            Inclui um novo dado na tabela Estado.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstadoController.Put(TecnoShop.Poco.EstadoPoco)">
+            <summary>
+            Altera um dado existente na tabela Estado.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstadoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.EstoqueController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Estoque por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.GetByLoja(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Estoque por código de Loja.
+            </summary>
+            <param name="lojcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.GetByProduto(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Estoque por código Produto.
+            </summary>
+            <param name="procod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave da Estoque.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.Post(TecnoShop.Poco.EstoquePoco)">
+            <summary>
+            Inclui um novo dado na tabela Estoque.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.Put(TecnoShop.Poco.EstoquePoco)">
+            <summary>
+            Altera um dado existente na tabela Estoque.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.EstoqueController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.FuncionarioController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Funcionário por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.GetByLoja(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Funcionário por código de Loja.
+            </summary>
+            <param name="lojcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.GetByGerente(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Funcionário por código Gerente.
+            </summary>
+            <param name="gercod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Funcionário.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.Post(TecnoShop.Poco.FuncionarioPoco)">
+            <summary>
+            Inclui um novo dado na tabela Funcionário.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.Put(TecnoShop.Poco.FuncionarioPoco)">
+            <summary>
+            Altera um dado existente na tabela Funcionário.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.FuncionarioController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.GerenteController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Gerente por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.GetByLoja(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Gerente por código de Loja.
+            </summary>
+            <param name="lojcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Gerente.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.Post(TecnoShop.Poco.GerentePoco)">
+            <summary>
+            Inclui um novo dado na tabela Gerente.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.Put(TecnoShop.Poco.GerentePoco)">
+            <summary>
+            Altera um dado existente na tabela Gerente.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.GerenteController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.LojaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Loja por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.GetByEndereco(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Loja por código de Endereço.
+            </summary>
+            <param name="endcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Loja.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.Post(TecnoShop.Poco.LojaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Loja.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.Put(TecnoShop.Poco.LojaPoco)">
+            <summary>
+            Altera um dado existente na tabela Loja.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.LojaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.MarcaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Marca por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.GetAll(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Marca por Paginação e Nome Marca.
+            </summary>
+            <param name="marca"> Informar o tipo de Serviço. </param>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns></returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave da Marca.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.Post(TecnoShop.Poco.MarcaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Marca.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.Put(TecnoShop.Poco.MarcaPoco)">
+            <summary>
+            Altera um dado existente na tabela Marca.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.MarcaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.ProdutoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Produto por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.GetByCategoria(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Produto por código de Categoria.
+            </summary>
+            <param name="catcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.GetByMarca(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Produto por código Marca.
+            </summary>
+            <param name="marcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Produto.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.Post(TecnoShop.Poco.ProdutoPoco)">
+            <summary>
+            Inclui um novo dado na tabela Produto.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.Put(TecnoShop.Poco.ProdutoPoco)">
+            <summary>
+            Altera um dado existente na tabela Produto.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.ProdutoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.VendaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Venda por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.GetByLoja(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Venda por código de Loja.
+            </summary>
+            <param name="lojcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.GetByCliente(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Venda por código Cliente.
+            </summary>
+            <param name="clicod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.GetByFuncionario(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Venda por código Funcionário.
+            </summary>
+            <param name="funcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave da Venda.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.Post(TecnoShop.Poco.VendaPoco)">
+            <summary>
+            Inclui um novo dado na tabela Venda.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.Put(TecnoShop.Poco.VendaPoco)">
+            <summary>
+            Altera um dado existente na tabela Venda.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="T:TecnoShopApi.Controllers.VendaItemController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.#ctor(TecnoShop.Domain.EF.TecnoShopContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros da tabela Venda Item por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.GetByVenda(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Venda Item por código de Venda.
+            </summary>
+            <param name="vencod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.GetByProduto(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Venda Item por código Produto.
+            </summary>
+            <param name="procod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave da Venda Item.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.Post(TecnoShop.Poco.VendaItemPoco)">
+            <summary>
+            Inclui um novo dado na tabela Venda Item.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.Put(TecnoShop.Poco.VendaItemPoco)">
+            <summary>
+            Altera um dado existente na tabela Venda Item.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:TecnoShopApi.Controllers.VendaItemController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente no recurso, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+    </members>
+</doc>

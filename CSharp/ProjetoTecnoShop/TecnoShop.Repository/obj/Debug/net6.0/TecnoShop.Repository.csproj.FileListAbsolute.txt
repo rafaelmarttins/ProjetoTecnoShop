@@ -1,0 +1,15 @@
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\bin\Debug\net6.0\TecnoShop.Repository.deps.json
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\bin\Debug\net6.0\TecnoShop.Repository.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\bin\Debug\net6.0\TecnoShop.Repository.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\bin\Debug\net6.0\TecnoShop.Domain.EF.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\bin\Debug\net6.0\TecnoShop.Domain.EF.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.csproj.AssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.AssemblyInfo.cs
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.csproj.CopyComplete
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\refint\TecnoShop.Repository.dll
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\TecnoShop.Repository.pdb
+C:\Users\Rafael\Documents\GitHub\ProjetoTecnoShop\CSharp\ProjetoTecnoShop\TecnoShop.Repository\obj\Debug\net6.0\ref\TecnoShop.Repository.dll

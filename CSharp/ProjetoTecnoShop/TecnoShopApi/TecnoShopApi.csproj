@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>Documents\TecnoShopApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Core" Version="1.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TecnoShop.Domain.EF\TecnoShop.Domain.EF.csproj" />
+    <ProjectReference Include="..\TecnoShop.Poco\TecnoShop.Poco.csproj" />
+    <ProjectReference Include="..\TecnoShop.Repository\TecnoShop.Repository.csproj" />
+    <ProjectReference Include="..\TecnoShop.Service\TecnoShop.Service.csproj" />
+  </ItemGroup>
+
+</Project>
